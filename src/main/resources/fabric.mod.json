@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "bluemapskinrestorer",
+    "version": "${version}",
+    "name": "BlueMap SkinRestorer",
+    "description": "Restores player-head icons on offline-mode servers using SkinsRestorer.",
+    "authors": [
+        "fewwan"
+    ],
+    "contact": {
+        "sources": "https://github.com/fewwan/BlueMap-SkinsRestorer",
+        "issues": "https://github.com/fewwan/BlueMap-SkinsRestorer/issues"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/bluemapskinrestorer/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "fewwan.bluemapskinrestorer.BlueMapSkinRestorer"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.5",
+        "minecraft": "*",
+        "java": ">=21",
+        "fabric-api": "*",
+        "bluemap": "*",
+        "skinrestorer": "*"
+    }
+}
